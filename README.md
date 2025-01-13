@@ -1,12 +1,12 @@
 # Code Game
 
 A very stupid game about guessing a code.
-
 Currently none of the endpoints will be active until Jan 31.
 
 ## Table of Contents
 
 - [About Code Game](#about-code-game)
+- [How to play](#how-to-play)
 - [Creating an account](#creating-an-account)
 - [Sending a code](#sending-a-code)
 - [Getting user statistics](#sending-a-code)
@@ -19,6 +19,24 @@ Currently none of the endpoints will be active until Jan 31.
 Code Game is a pretty dumb project I made to introduce myself into the [Rust Programming Language](https://www.rust-lang.org/). In Code Game, you attempt to guess/crack a 4 character code. *This may change in the future if it gets too easy for anyone who might be playing this*. I thought it would be funny to make it more into a game to see who can guess the most codes with or without a program.
 
 The likely hood of me doing major updates to this project is pretty slim since I am working on a much larger scale project, so for the few who may enjoy this project do not expect much from this.
+
+## How to Play
+
+This entire game is based off of making HTTP requests to the url https://game.sinmysize.com/code-game/ in order to guess/crack a code.
+
+You can make these requests through tools such as [Insomnia by Kong](https://insomnia.rest/), [Postman](https://www.postman.com/), etc. to test the endpoints and creating a program or script using languages such as [Node.js](https://nodejs.org/en), [Python](https://www.python.org/), [Rust](https://www.rust-lang.org/), or any language that can make HTTP requests to try and guess/crack the code.
+
+Each code will be a string of lowercase letters and numbers that is determined by the code length the server has set. To find the code length, read [Getting Server Info](#getting-server-info).
+
+- First, [create an account](#creating-an-account) so you can begin sending codes to the server.
+
+- Second, make a request to [send a code](#sending-a-code) to the server and see if you guessed it correctly.
+
+- Finally, repeat the second step until you successfully guessed a code.
+
+The methods of cracking the codes are primarily up to you. I hope you enjoy this small silly game I made.
+
+# REST-API
 
 ## Creating an Account
 
