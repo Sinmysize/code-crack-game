@@ -20,6 +20,8 @@ Code Game is a pretty dumb project I made to introduce myself into the [Rust Pro
 
 The likely hood of me doing major updates to this project is pretty slim since I am working on a much larger scale project, so for the few who may enjoy this project do not expect much from this.
 
+All code is open source.
+
 ## How to Play
 
 This entire game is based off of making HTTP requests to the url https://game.sinmysize.com/code-game/ in order to guess/crack a code.

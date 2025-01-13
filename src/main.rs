@@ -246,5 +246,3 @@ async fn main() -> std::io::Result<()> {
     .run()
     .await
 }
-
-// https://discord.com/api/webhooks/1322439660651417640/s3KNWUJd-fyVqcyVcWkLECg2mi6BTk18RNVLTdX3qbFgO_h0QTTX0DdKxSn7wtU4PVWr
