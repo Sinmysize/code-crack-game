@@ -20,7 +20,7 @@ Code Game is a pretty dumb project I made to introduce myself into the [Rust Pro
 
 The likely hood of me doing major updates to this project is pretty slim since I am working on a much larger scale project, so for the few who may enjoy this project do not expect much from this.
 
-All code is open source.
+All server code is open source.
 
 ## How to Play
 

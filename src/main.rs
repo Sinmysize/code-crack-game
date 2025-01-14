@@ -129,7 +129,6 @@ async fn delete_user(cred: web::Json<CredentialBody>, data: web::Data<AppState>)
     }
 }
 
-// Gives a few statistics
 #[get("/code-game/statistics")]
 async fn get_statistics(data: web::Data<AppState>) -> HttpResponse {
     let now = Instant::now();
