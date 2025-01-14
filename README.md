@@ -204,4 +204,28 @@ The methods of cracking the codes are primarily up to you. I hope you enjoy this
 }
 ```
 
-## Getting the Leaderboard
+## Getting the Leaderboard (WIP)
+
+- **URL** : `/code-game/user/leaderboard`
+
+- **Method** : `GET`
+
+- **Auth** : `None`
+
+- **Headers** : `Content-Type: application/json`
+
+- **Body** : `None`
+
+
+### Response
+
+- **Success** : `200 OK`
+
+    - Will always return 200.
+
+*Example* 
+```json
+{
+
+}
+```
