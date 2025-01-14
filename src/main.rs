@@ -194,8 +194,6 @@ async fn try_code(req: web::Json<WebRequest>, data: web::Data<AppState>) -> Http
         .bind(password)
         .execute(&*client).await.unwrap();
 
-
-
         println!("[-] The code has been cracked by {}!", user.username);
         println!("[+] Current Code to crack: {}", code);
 
